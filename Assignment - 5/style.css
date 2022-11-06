@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: 30px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+/* navbar start */
+.navbar{
+    margin: 20px;
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-between;
+    color: #404041 ;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #404041;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.bes img{
+    width: 70px;
+    height: 15px;
+    margin-right: 100px;
+}
+.blue-img2 img{
+    width: 70px;
+    margin-top: 200px;
+    margin-left: 220px;
+}
+/* navbar done */
+    
+/* header section start */
+.heading{
+    /* display: flex; */
+    align-items: center;
+}
+.heading-title{
+    padding-left: 75px;
+
+}
+.heading-title h1{
+    font-family: 'Bai Jamjuree';
+    font-size: 60px;
+    font-weight: 700;
+}
+.heading-title p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#535354;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.heading-icon{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.heading-icon i{
+
+    padding: 10px;
+    color: aliceblue;
+    background-color:black;
+}
+.heading-icon p{
+    color:  #222223;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* header section done */
+.blue{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 600px;
+    top: 150px;
+    background: linear-gradient(106.01deg, #80D1FF 0%, #44B2F1 69.58%);
+}
+.gold{
+    position: absolute;
+    width: 190px;
+    height: 300px;
+    left: 980px;
+    top: 150px;
+    padding: 60px 45px;
+    background: linear-gradient(201.5deg, #FFD968 4.52%, #FAC422 102.63%);
+    
+}
+.blue-img img{
+    position: absolute;
+    width:280px ;
+    height:180px ;
+    transform: rotate(340.39deg);
+    top: 170px;
+    left: 600px;
+    
+}
+.gold-icons{
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+.deals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -880px;
+    margin-top: 320px;
+    gap: 40px;
+}
+
+.hot p,.persent p,.days p,.save p{
+    font-size: 13px;
+    width: 233px;
+    height: 52px;
+    margin-top: 20px;
+}
+.persent i,.days i,.save i{
+    height: 30px; 
+}
+/* header section done */
+/* blue box start */
+.elli img{
+    position: absolute;
+    left: 500px;
+    top: 730px;
+}
+.big-box{
+    margin-top: 300px;
+    width: 1200px;
+    height: 400px;
+    background-color: #8dd0f7;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding-left: 200px;
+
+}
+.we h3,.media h3{
+    font-size: 22px;
+    font-weight: 100;
+}
+.we p,.media p{
+    padding-top:20px ;
+    color: #5F5F64;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* blue box done */
+/* mid section start */
+.customer{
+    margin-top: 150px;
+    margin-left:280px ;
+}
+.customer h1{
+    font-size: 70px;
+}
+.customer p{
+    color: #767E7E;
+    font-size:13px ;
+    font-weight: 100;
+
+}
+.achievement{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+}
+.pdt{
+    width: 150px;
+    height: 140px;
+    border: 0.5px solid  #718176; ;
+    border-left: none;
+}
+.like{
+    width: 200px;
+    height: 140px;
+    border: 0.5px solid  #718176; ;
+}
+.sale{
+    width: 150px;
+    height: 140px;
+    border: 0.5px solid  #718176; ;
+}
+.ctm{
+    width: 150px;
+    height: 140px;
+    border: 0.5px solid  #718176; ;
+    border-right: none;
+}
+.pdt p,.like p,.sale p,.ctm p{
+    text-align: center;
+    letter-spacing: 3px;
+    color:  #718176;
+    padding-top: 50px;
+    font-size: 14px;
+
+}
+.pdt h4,.like h4,.sale h4,.ctm h4{
+    text-align: center;
+    font-size:18px ;
+
+}
+.mid{
+    display: flex;
+    margin-left: 150px;
+}
+.mid-box{
+    width: 350px;
+    height: 250px;
+    background-color: #CFEDFF;
+    position: relative;
+    /* border:40px solid #CFEDFF ;
+    border-left: none; */
+}
+.mid-box img{
+    position: absolute;
+    width: 420px;
+    height: 300px;
+    right: -20px;
+    top: 10px;
+}
+.mid-text{
+    margin-left: 100px;
+}
+.mid-text p{
+    margin-top:20px ;
+}
+.stc,.work{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 20px
+}
+.stc h5,.work h5{
+    font-size: 13px;
+    font-weight: 600;
+}
+.stc p,.work p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #718176;
+
+}
+/* mid section done */
+/* last blue box start */
+.last-box{
+    width: 1200px;
+    height: 400px;
+    background-color: #41B3F4;
+    margin-top: 100px;display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.line{
+    width: 5px;
+    height: 144px;
+    background-color: #718176;
+}
+.first-sec p{
+     font-size: 14px;
+     font-weight: 400;
+     color: #414449;
+}
+.first-sec img{
+    width: 70px;
+    margin-top: 20px;
+}
+.sub h2{
+    font-size: 50px;
+
+}
+.sub button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #E15C19;
+    color: #FFFFFF;
+    border: none;
+}
+.card-img img{
+    width: 300px;
+    height: 180px;
+    transform: rotate(-90deg);
+}
+/* last blue box done */
+/* footer start */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 30px 50px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #404041;
+    font-size: 13px;
+    font-weight: 600;
+    /* font-family: 'Roboto'; */
+}
+
+
+.footer-bes img{
+    margin-left: 100px;
+
+} 
+.footer-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding:35px 60px ;
+}
+.line2{
+    width: 500px;
+    height: 0.5px;
+    background-color: #565B58;
+}
+.footer-sec,.by{
+    font-size: 10px;
+    color: #7B827D;
+}
